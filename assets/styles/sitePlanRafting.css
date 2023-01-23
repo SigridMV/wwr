@@ -11,13 +11,13 @@
   --paragraph-font: Montserrat, Helvetica, sans-serif;
 
   /* these colors below I chosen from among my palette colors above */
-  --headline-color-on-white: #4E5340;; /* headlines on a white background */
+  --headline-color-on-white: #4E5340; /* headlines on a white background */
   --headline-color-on-color: #0D1317; /* headlines on a colored background */
   --paragraph-color-on-white: #0D1317; /* paragraph text on a white background */
   --paragraph-color-on-color: #0D1317; /* paragraph text on a colored background */
   --paragraph-background-color: #E2E8DD;
   --nav-link-color: white;
-  --nav-background-color: #4E5340;;
+  --nav-background-color: #4E5340;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #95A3A4;
 }
