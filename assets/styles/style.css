@@ -56,6 +56,11 @@ nav a:hover {
     width: 80%;
 }
 
+.logo,
+.icon{
+    width:80px;
+}
+
 .msg {
     background-color: #4E5340;
     color: #fff;
@@ -71,6 +76,7 @@ footer a {
     background-color: #4E5340;
     color: #fff;
     text-align: center;
+    text-decoration: none;
    
 }
 
@@ -86,8 +92,4 @@ footer p a:hover{
 .social img{
     width: 40px;
     border-radius: 5px;
-}
-
-.social img:hover{
-    background-color: #fff;
 }
