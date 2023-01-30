@@ -1,95 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto&family=Shadows+Into+Light&display=swap');
 
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
+
+body {
+  background-color: #fff;
+  font-size: 22px;
+  font-family: "Shadows Into Light", cursive;
+  margin: 0;
+  padding: 0;
 }
 
-#hero-img{
-    width: 100%;
+#hero-img {
+  width: 100%;
 }
 
 nav a,
-#hero-msg h1, 
+#hero-msg h1,
 #hero-msg h4,
 .button-box,
 main section {
-    text-align: center;
-    color: #4E5340;
+  text-align: center;
+  color: #4e5340;
 }
 
 #background {
-    height: 725px;
-    background-color: #95A3A4;
-    margin-bottom: 20px;
-
+  height: 725px;
+  background-color: #95a3a4;
+  margin-bottom: 20px;
 }
 
-body {
-    background-color: #fff;
+h2 {
+  margin: 0;
+}
+
+.home-title {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 10px;
 }
 
 header {
-    background-color: #4E5340;    
+  background-color: #4e5340;
 }
 
-nav a{
-    text-align: center;
-    color: #fff;
-    text-decoration: none;
+nav a {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 35px;
 }
 
 nav a:hover {
-    background-color: #95A3A4;
+  background-color: #95a3a4;
 }
 
-.book, .join{
-    background-color: #95A3A4;
-    color: #fff;
-    text-decoration: none;
-}
-.book:hover, .join:hover {
-    background-color: #95A3A4;
-    color:black
+.book,
+.join {
+  background-color: #95a3a4;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
-.mountains{
-    width: 80%;
+.book:hover,
+.join:hover {
+  background-color: #95a3a4;
+  color: black;
+}
+
+.mountains {
+  width: 50%;
 }
 
 .logo,
-.icon{
-    width:80px;
+.icon {
+  width: 80px;
 }
 
 .msg {
-    background-color: #4E5340;
-    color: #fff;
-   
+  background-color: #4e5340;
+  line-height: 1.5em;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  padding: 35px;
 }
 
-footer{
-    margin-top:  20px;
+.msg p {
+  padding-bottom: 15px;
+}
+
+footer {
+  margin-top: 20px;
 }
 
 footer,
 footer a {
-    background-color: #4E5340;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-   
+  background-color: #4e5340;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 
-footer p a:hover{
-    background-color: #95A3A4;
+footer p a:hover {
+  background-color: #95a3a4;
 }
 
-.social{
- text-align: center;
-
+footer .social img {
+  width: 40px;
+  border-radius: 5px;
+  padding-top: 15px;
 }
 
-.social img{
-    width: 40px;
-    border-radius: 5px;
+h4,
+.book {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+#logo_link {
+  padding-top: 5px;
+}
+
+.icon {
+  padding-top: 10px;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px 0;
+  text-align: center;
+}
+
+.card-img {
+  border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
 }
