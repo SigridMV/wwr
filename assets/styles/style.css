@@ -307,7 +307,7 @@ footer {
 
 .text {
   display: grid;
-  grid-template-columns: 1fr 1fr auto;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto;
   color: #777;
   background-color:white;
